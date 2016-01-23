@@ -11,6 +11,7 @@ simlottery
 
 * Try `python debug.py`. then you will get something like this:
 
+    ```
     #### Lottery generator ####
     nubmer amount: 6, number range: 1,49 (49 not included), unique: False, sort: True
 
@@ -19,6 +20,7 @@ simlottery
     nubmer amount: 4, number range: 1,6 (6 not included), unique: True, sort: False
 
     [2, 3, 5, 6]
+    ```
 
 
 #### TODOs
