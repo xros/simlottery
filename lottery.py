@@ -28,10 +28,12 @@ class RandomLottery(object):
 
         # not unique
         if not self.unique:
+            tmp_list_not_unique = []
             while x < self.number_amount:
                 x += 1
                 the_random_int = random.randint(self.number_range[0], self.number_range[-1])
-                self.lottery_numbers.append(the_random_int)
+                tmp_list_not_unique.append(the_random_int)
+                self.lottery_numbers = tmp_list_not_unique 
         # unique
         else:
             tmp_list = []
